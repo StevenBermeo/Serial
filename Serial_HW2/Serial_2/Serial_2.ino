@@ -30,4 +30,4 @@ Serial.print("Hello world!");  // prints Hello world! sometimes
 
 //*********************** FUNCIONS *************************************************
 
-// Say Hello world! in a single line
+// Say Hello world! in a single line, say one time, wait 1 second and say it again
