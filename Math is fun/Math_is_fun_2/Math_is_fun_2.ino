@@ -1,8 +1,9 @@
+
 /**********************************************************************************
 **                                                                               **
-**                                  TÍTOL: Serial 2                              **
+**                                  TÍTOL:Math is fun 2                          **
 **                                                                               **
-**   Nom: Kevin Steven Bermeo Alvarado                           Data:20/01/2017 **
+**   Nom: Kevin Steven Bermeo Alvarado                           Data:04/02/2017 **
 
 **********************************************************************************/
 
@@ -10,20 +11,37 @@
 
 
 //************************** VARIABLES ********************************************
-// 
-//********** Setup ****************************************************************
-void setup()              // run once, when the sketch starts 
-{
-  Serial.begin(9600);     // set up Serial library at 9600 bps
 
- }
+//a,b,h
+//********** Setup ****************************************************************
+int a = 3;
+int b = 4;
+int h
+
+void setup()
+
+{
+Serial.begin(9600)              //open serial library 
+
+Serial.println(" Lets calculate a hypoteneuse ");
+Serial.print(" a = ");
+Serial.println(a);
+Serial.print(" b = ");
+Serial.println(b);
+Serial.print(" h = ");
+h = sqrt( pow (a.2) + pow (b,2) );
+
+Serial.println(h);
+
+}
+
+//********** Loop ***************************************************************
 
 void loop ()
 {
-  Serial.println("Hello world!");
-  delay(1000);
+  
 }
 
 //*********************** FUNCIONS *************************************************
 
-// Say Hello world! in a diferents lines, say one time, wait 1 second and say it again
+// Calculate hypoteneuse 
