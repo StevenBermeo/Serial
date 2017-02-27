@@ -37,6 +37,7 @@ void loop()
   }
    if (Serial.read() == '\n')                                       //Una vez leido el serial agrega una linea nueva
     {                                                         //look for newline. Is the end of your sentence
+      Serial.println( );
       Serial.println("Entra un numero?");      //mostra el resultats i fa de nou la pregunta inicial)
     }
   }
