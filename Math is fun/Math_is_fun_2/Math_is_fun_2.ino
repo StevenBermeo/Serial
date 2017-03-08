@@ -14,14 +14,14 @@
 
 //a,b,h
 //********** Setup ****************************************************************
-int a = 3;
-int b = 4;
+float a = 3;
+float b = 4;
 int h
 
 void setup()
 
 {
-Serial.begin(9600)              //open serial library 
+Serial.begin(9600);              //open serial library 
 
 Serial.println(" Lets calculate a hypoteneuse ");
 Serial.print(" a = ");
@@ -29,19 +29,17 @@ Serial.println(a);
 Serial.print(" b = ");
 Serial.println(b);
 Serial.print(" h = ");
-h = sqrt( pow (a.2) + pow (b,2) );
+
+h = sqrt( pow (a,2) + pow (b,2) );
 
 Serial.println(h);
-
 }
-
 //********** Loop ***************************************************************
-
 void loop ()
-{
-  
-}
 
+{
+ 
+}
 //*********************** FUNCIONS *************************************************
 
 // Calculate hypoteneuse 

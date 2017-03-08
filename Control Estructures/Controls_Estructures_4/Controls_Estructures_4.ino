@@ -22,9 +22,9 @@ void setup()                                                  // run once time
 
   Serial.begin(9600);                                         // set up Serial library at 9600 bps
 
-  Serial.print("El teu nivell de kgCO2/m2 és ");
+  Serial.print("El teu nivell de kgCO2/m2 es ");
   Serial.println(kgCO2);
-  Serial.print("Tens una qualificació enèrgetica de ");
+  Serial.print("Tens una qualificacio energetica de ");
   
   if ( kgCO2 < 3.5 )                                       // Measures the value of the variable
   {

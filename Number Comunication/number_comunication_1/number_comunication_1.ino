@@ -36,6 +36,7 @@ void loop() {
       Serial.println(" ohms ");                                      //Muestra el valor variable rParalel
     if (Serial.read() == '\n')                                       //Una vez leido el serial agrega una linea nueva
     { //look for newline. Is the end of your sentence
+      Serial.println(" ");
       Serial.println("Entra nous valors per r1 i r2");      //mostra el resultats i fa de nou la pregunta inicial)
     }
   }
